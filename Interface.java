@@ -6,6 +6,7 @@ interface In1
 }
 
 public class Interface implements In1 {
+    @Override
     public void display()
     {
         System.out.println("Interface in Java");
