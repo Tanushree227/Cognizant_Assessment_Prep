@@ -12,6 +12,7 @@ public class Interface implements In1 {
         System.out.println("Interface in Java");
     }
 
+    @SuppressWarnings("static-access")
     public static void main(String[] args) {
         Interface obj = new Interface();
         obj.display();
